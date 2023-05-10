@@ -1,14 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 .section-header{
-    background:#3b3b3b;
+    background:#3b3b3b !important;
+    font-weight:600;
 }   
+
+.dropdown-toggle:hover{
+    color:#d4af37 !important;
+    transition:0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
 
 .fa-house{
     margin-right:10px;
     font-size: 17px;
 }
-.primary-head:hover
+
+.flex-item span:hover
 {
     color:#d4af37;
+    transition:0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.dropdown-menu a{
+    font-weight:450;
+}
+
+.dropdown-menu {
+    background-color: #3b3b3b !important;
+}
+
+.dropdown-menu a:hover
+{
+    color:#d4af37 !important;
+    background-color: #3b3b3b !important;
+    transition:0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
 .carousel-caption{

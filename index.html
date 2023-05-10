@@ -15,23 +15,37 @@
         <div class="Header_Wrapper d-flex justify-content-between align-items-center">
           <div class="header_flex-item">
             <nav class="header_MainNav">
-              <ul class="d-flex text-light m-3 list-unstyled">
-                <li class="flex-item nav-link dropdown-toggle p-3" role="button" data-bs-toggle="dropdown" aria-expanded="false"><a href="index.html" class="text-decoration-none text-light primary-head"><i class="fa-solid fa-house"></i><span class="primary-head">HOME</span></a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  </ul>
-                </li>
-                <li class="flex-item p-3"><a href="products.html" class="text-decoration-none text-light">products</a></li>
-                <li class="flex-item p-3"><a href="info.html" class="text-decoration-none text-light">info</a></li>
+            <ul class="d-flex text-light m-3 list-unstyled ">
+              <li class="flex-item p-3"><a href="index.html" class="text-decoration-none text-light"><span>home</span></a>
+              <li class="nav-item dropdown">
+                <a class="flex-item p-3 nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><span>products</span></a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item text-light" href="#">keyboard</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item text-light" href="#">swtich</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item text-light" href="#">keyboard kit</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="flex-item p-3 nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><span>info</span></a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item text-light" href="#">project updates</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item text-light" href="#">about us</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item text-light" href="#">contact us</a></li>
+                </ul>
+              </li>
               </ul>
             </nav>
+            <!--DROPDOWN_CONTENT_END-HERE-->
           </div>
+          <!--LOGO-->
           <div class="header_flex-logo text-light d-flex">
-            <h1>keystore</h1>
+            <h1 style="color:#d4af37">keystore</h1>
           </div>
+          <!--CART-->
           <div class="header_flex-item">
             <nav class="header_SecondNav">
               <ul class="d-flex text-light m-3 list-unstyled">
@@ -41,10 +55,11 @@
               </ul>
             </nav>
           </div>
-        </div>
-      </div>
+        </div> <!--Header_END-->
+      </div> <!--Page_Container_END-->
       <!--Main-->
       <div class="main">
+        <!--IMAGES-SLIDE-->
         <div id="carouselExampleCaptions" class="carousel slide">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
