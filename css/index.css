@@ -60,7 +60,7 @@
 .carousel-item img{
     width: 880px;
     height: 880px;
-    object-fit:fill;
+    object-fit:cover;
 }
 .carousel-caption h5{
     font-size:30px;
