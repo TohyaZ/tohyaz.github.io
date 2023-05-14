@@ -119,7 +119,8 @@
 }
 
 .container .carousel-item{
-    height: auto;
+    height:auto;
+    max-width:auto;
     opacity: 0;
     transition: opacity ease-in-out .5s;
 }
@@ -183,9 +184,25 @@
 }
 
 .footer .jumbotron {
-    background-color:#1c1b1b ;
+    background-color:black ;
     background-size: cover;
     padding: 100px;
     margin-bottom: 0;
 }
 
+.sectionProduc-list .container{
+   max-width: 140rem;
+}
+
+.sectionProduc-list .container img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition:0.3s ease-out;
+ }
+
+ .sectionProduc-list .container img:hover{
+    transform: scale(1.05);
+   transition:1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+ }
