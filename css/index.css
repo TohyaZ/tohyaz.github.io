@@ -103,7 +103,7 @@
     letter-spacing: 2px;
     line-height: 1.5;
 
-    color:white;
+    color:#e5e3db;
 }
 
 .mainContainer h5{
@@ -127,3 +127,65 @@
 .container .carousel-item.active {
     opacity: 1;
 }
+
+.mainFooter
+{
+    text-transform: uppercase;
+    line-height: 1.5;
+
+    color:#d4af37;
+}
+
+.mainFooter h5{
+    font-size:23px;
+    letter-spacing: 3px;
+    font-weight: 700;
+
+}
+
+.line-wrapper {
+    max-width: 40%;
+    margin: 0 auto;
+    height: 2px;
+    background-color: #d4af37;
+    margin-top: 50px;
+}
+
+.sectionFooter_Banner .jumbotron {
+    background-size: cover;
+    padding: 100px;
+    margin-bottom: 0;
+}
+
+.sectionFooter_Banner p{
+    color: #e5e3db;
+    font-size:12px;
+    letter-spacing: 2px;
+    line-height: 4;
+    font-weight: 500;
+}
+
+.sectionFooter_Banner h2{
+    color:#e5e3db;
+    font-size:25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 2;
+    font-weight: 700;
+}
+
+.sectionFooter_Banner h3{
+    color:#e5e3db;
+    font-size:13px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1;
+}
+
+.footer .jumbotron {
+    background-color:#1c1b1b ;
+    background-size: cover;
+    padding: 100px;
+    margin-bottom: 0;
+}
+
