@@ -55,6 +55,7 @@
 .carousel-item{
     height:880px;
     width: 880px;
+    cursor:pointer;
 }
 
 .carousel-item img{
@@ -112,8 +113,24 @@
     font-weight: 700;
 }
 
+.container .carousel-item .card {
+    --bs-card-border-color:none;
+}
+
+.container .carousel-item .card .card-body{
+    background-color: #3b3b3b;
+    color:#e5e3db;
+    text-align: center;
+    font-weight: 700;
+
+}
+
+.container .carousel-item .card .card-body p{
+    color:#d4af37;
+}
+
 .container .carousel-item img{ 
-    height:300px;
+    height:350px;
     width: auto;
     object-fit: cover;
 }
@@ -122,7 +139,7 @@
     height:auto;
     max-width:auto;
     opacity: 0;
-    transition: opacity ease-in-out .5s;
+    transition:opacity ease-in-out 1s;
 }
 
 .container .carousel-item.active {
@@ -183,26 +200,39 @@
     line-height: 1;
 }
 
-.footer .jumbotron {
+.footer .jumbotron{
     background-color:black ;
     background-size: cover;
     padding: 100px;
     margin-bottom: 0;
 }
 
-.sectionProduc-list .container{
-   max-width: 140rem;
+.sectionProduc-list .container-fluid img{
+    width:auto;
+    min-height:400px;
+    object-fit:cover;
+    transition:transform 0.3s ease-out;
 }
 
-.sectionProduc-list .container img{
-    display: block;
+.sectionProduc-list .card::before{
+    content: "";
+    position: absolute;
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    transition:0.3s ease-out;
- }
+    top:0;
+    left:0;
+    background-image: linear-gradient(to top,rgba(4,4,4,.65),rgba(54,54,54,.2));
+    z-index:1;
+}
 
- .sectionProduc-list .container img:hover{
+.sectionProduc-list .container-fluid .card:hover{
     transform: scale(1.05);
-   transition:1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
- }
+    transition:1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+
+.sectionProduc-list .card{
+    --bs-card-border-color:none;
+        cursor:pointer;
+}
+
