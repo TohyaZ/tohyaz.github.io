@@ -1,9 +1,9 @@
-import {data} from "../data/product.js"
+import {data3} from "../data/product.js"
 const getDeskmatscard = document.getElementById("deskMatscard")
 console.log('a',getDeskmatscard)
 
 let deskMcard = ""
-data.forEach((element)=>{
+data3.forEach((element)=>{
 let html = `
 <div class="col-md-3 p-3">
 <div class="card">

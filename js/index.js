@@ -1,11 +1,43 @@
-import { data } from "../data/product.js"
+import { dataB1 } from "../data/product.js"
 import { data2 } from "../data/product.js"
 const getProductsCard = document.getElementById("sectionCard")
 const getContainerCard = document.getElementById("indexCcard")
-
+const getContainerCard2 = document.getElementById("indexCcard2")
 console.log("data1-đã gọi dc",getProductsCard)
 console.log("Data2-ko gọi ra dc",getContainerCard)
 
+
+let containerCard = ""
+dataB1.forEach((element) => {
+    let arrayCard = `
+    <div class="col-md-3">
+        <div class="card">
+            <img src=${element.srcImg}>
+                <div class="card-body">
+                    <h5 class="card-title">${element.title}</h5>
+                    <p class="card-text">${element.price} $</p>
+                </div>
+        </div>
+    </div>
+    `
+    containerCard += arrayCard
+})
+
+let containerCard2 = ""
+dataB1.forEach((element) => {
+    let arrayCard = `
+    <div class="col-md-3">
+        <div class="card">
+            <img src=${element.srcImg}>
+                <div class="card-body">
+                    <h5 class="card-title">${element.title}</h5>
+                    <p class="card-text">${element.price} $</p>
+                </div>
+        </div>
+    </div>
+    `
+    containerCard2 += arrayCard
+})
 
 let proDuct = ""
 data2.forEach((element) => {
@@ -18,25 +50,8 @@ data2.forEach((element) => {
     `   
     proDuct += html
 })
-
-let containerCard = ""
-data.forEach((element) => {
-    let arrayCard = `
-    <div class="col-md-4">
-        <div class="card">
-            <img src=${element.srcImg}>
-                <div class="card-body">
-                    <h5 class="card-title">${element.title}</h5>
-                    <p class="card-text">${element.price}</p>
-                </div>
-        </div>
-    </div>
-    `
-    containerCard += arrayCard
-})
-
-
-getContainerCard.innerHTM = containerCard;
+getContainerCard.innerHTML = containerCard;
+getContainerCard2.innerHTML = containerCard2;
 getProductsCard.innerHTML = proDuct;
 
 
