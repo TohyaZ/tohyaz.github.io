@@ -1,10 +1,8 @@
-import { dataB1 } from "../data/product.js"
-import { data2 } from "../data/product.js"
+import { dataB1,dataB2,data2 } from "../data/product.js"
+
 const getProductsCard = document.getElementById("sectionCard")
 const getContainerCard = document.getElementById("indexCcard")
 const getContainerCard2 = document.getElementById("indexCcard2")
-console.log("data1-đã gọi dc",getProductsCard)
-console.log("Data2-ko gọi ra dc",getContainerCard)
 
 
 let containerCard = ""
@@ -24,7 +22,7 @@ dataB1.forEach((element) => {
 })
 
 let containerCard2 = ""
-dataB1.forEach((element) => {
+dataB2.forEach((element) => {
     let arrayCard = `
     <div class="col-md-3">
         <div class="card">
