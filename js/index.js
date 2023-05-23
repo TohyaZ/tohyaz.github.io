@@ -3,8 +3,8 @@ import { data2 } from "../data/product.js"
 const getProductsCard = document.getElementById("sectionCard")
 const getContainerCard = document.getElementById("indexCcard")
 
-console.log("contai",getProductsCard)
-console.log("contai",getContainerCard)
+console.log("data1-đã gọi dc",getProductsCard)
+console.log("Data2-ko gọi ra dc",getContainerCard)
 
 
 let proDuct = ""
@@ -19,24 +19,24 @@ data2.forEach((element) => {
     proDuct += html
 })
 
-let containerProduct = ""
+let containerCard = ""
 data.forEach((element) => {
-    let html = `
+    let arrayCard = `
     <div class="col-md-4">
-    <div class="card">
-        <img src=${element.srcImg}>
-        <div class="card-body">
-            <h5 class="card-title">1</h5>
-            <p class="card-text">2$</p>
+        <div class="card">
+            <img src=${element.srcImg}>
+                <div class="card-body">
+                    <h5 class="card-title">${element.title}</h5>
+                    <p class="card-text">${element.price}</p>
+                </div>
         </div>
     </div>
-    </div>
     `
-    containerProduct += html
+    containerCard += arrayCard
 })
 
 
-getContainerCard.innerHTM = containerProduct;
+getContainerCard.innerHTM = containerCard;
 getProductsCard.innerHTML = proDuct;
 
 
