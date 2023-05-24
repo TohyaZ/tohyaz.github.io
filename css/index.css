@@ -204,10 +204,10 @@ background-color:#3b3b3b !important;
     line-height: 1;
 }
 
-.footer .jumbotron{
+.footer .jumbotron-fluid{
     background-color:black ;
     background-size: cover;
-    padding: 100px;
+    padding:50px 100px;
     margin-bottom: 0;
 }
 
@@ -309,3 +309,4 @@ background-color:#3b3b3b !important;
 .shippingBox p{
     line-height: 0;
 }
+
