@@ -2,12 +2,17 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
+   
+}
+
+body {
+min-height: 100%;
+background-color:#3b3b3b !important;
 }
 
 :root
 {
-    background-color:#3b3b3b;
+   
     font-size: 15px;
     color:white;
 }
@@ -15,6 +20,7 @@
 .section-header{
     background:#1c1b1b !important;
     font-weight:600;
+    text-transform: uppercase;
 }   
 
 .dropdown-toggle:hover{
@@ -88,14 +94,11 @@
     z-index:1;
     }
 
-.pageContainer {
-    font-size: 15px;
-    text-transform: uppercase;
-    font-weight: 500;
-}
+
 
 .main{
     background-color: #3b3b3b;
+    min-height: 100%;
 }
 
 .mainContainer
@@ -285,3 +288,21 @@
   color:#e5e3db;
   font-weight: 700;
 }
+
+.footer {
+    position: sticky !important;
+    top:100% !important;
+}
+
+.policyMain{
+    color:#e5e3db;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.policyContent{
+    font-size: 14px;
+    line-height: 1.6;
+    
+}
+

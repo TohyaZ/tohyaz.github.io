@@ -12,18 +12,40 @@
       <!--Header-->
       <div class="section-header">
         <div class="Header_Wrapper d-flex justify-content-between align-items-center">
-          <div class="header_flex-item">
-            <nav class="header_MainNav">
-              <ul class="d-flex text-light m-3 list-unstyled">
-                <li class="flex-item p-3"><a href="index.html" class="text-decoration-none text-light">HOME</a></li>
-                <li class="flex-item p-3"><a href="products.html" class="text-decoration-none text-light">PRODUCTS</a></li>
-                <li class="flex-item p-3"><a href="info.html" class="text-decoration-none text-light">INFO</a></li>
+          <div class="header_flex-item navbar navbar-expand-md">
+            <!--MainNav-->
+            <nav class="headerMainnav">
+            <ul class="d-flex text-light m-3 list-unstyled ">
+              <li class="flex-item p-3"><a href="index.html" class="text-decoration-none text-light"><span>home</span></a>
+              <li class="nav-item dropdown">
+                <a class="flex-item p-3 nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><span>products</span></a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item text-light" href="../keyboards.html">keyboard</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item text-light" href="../switchs.html">swtich</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item text-light" href="../keyboards.html">keyboard kit</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="flex-item p-3 nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><span>info</span></a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item text-light" href="./footermenu.html/shipping.html">shipping policy</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item text-light" href="./footermenu.html/rerfund.html">refund policy</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item text-light" href="contatch.html">contact us</a></li>
+                </ul>
+              </li>
               </ul>
             </nav>
+            <!--DROPDOWN_CONTENT_END-HERE-->
           </div>
+          <!--LOGO-->
           <div class="header_flex-logo text-light d-flex">
-            <h1>KEYSOTRE</h1>
+            <h1 style="color:#d4af37">keystore</h1>
           </div>
+          <!--CART-->
           <div class="header_flex-item">
             <nav class="header_SecondNav">
               <ul class="d-flex text-light m-3 list-unstyled">
@@ -33,8 +55,8 @@
               </ul>
             </nav>
           </div>
-        </div>
-      </div>
+        </div> <!--Header_END-->
+      </div> <!--Page_Container_END-->
       <!--Main-->
       <div class="main deskmats__main">
         <h1 class="text-center p-5 text-light">deskmat</h1>
@@ -52,11 +74,11 @@
         <div class="jumbotron text-light d-flex justify-content-between align-items-baseline">
           <div class="footerMenu d-flex flex-column">
             <h4>Footer Menu</h4>
-            <a href="">Legal Notice</a>
-            <a href="">Privacy Policy</a>
-            <a href="">Refund Policy</a>
-            <a href="">Terms Of Service</a>
-            <a href="">Shipping Policy</a>
+            <a href="./footermenu.html/legal.html">Legal Notice</a>
+            <a href="./footermenu.html/privacy.html">Privacy Policy</a>
+            <a href="./footermenu.html/rerfund.html">Refund Policy</a>
+            <a href="./footermenu.html/termofservice.html">Terms Of Service</a>
+            <a href="./footermenu.html/shipping.html">Shipping Policy</a>
           </div>
           <div class="footerReview d-flex flex-column">
                 <h4>Reviews</h4>

@@ -1,4 +1,4 @@
-import {data} from "../data/deskmatdata.js"
+import {data} from "../data/switchdata.js"
 const getDeskmatscard = document.getElementById("deskMatscard")
 console.log('a',getDeskmatscard)
 
