@@ -306,3 +306,6 @@ background-color:#3b3b3b !important;
     
 }
 
+.shippingBox p{
+    line-height: 0;
+}
