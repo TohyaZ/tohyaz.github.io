@@ -42,7 +42,7 @@ data2.forEach((element) => {
     let html = `
     <div class="col-lg-4 col-md-6 col-sm-12">
         <div class="card shadow-sm mb-5 mt-5">
-            <img alt="..." src=${element.srcImg}>
+            <img src=${element.srcImg}>
         </div>
     </div>
     `   
