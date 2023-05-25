@@ -7,7 +7,7 @@ data.forEach((element)=>{
 let html = `
 <div class="col-md-3 p-3">
 <div class="card">
-    <img src=${element.srcImg}>
+    <img alt="..." src=${element.srcImg}>
         <div class="card-body">
             <a class="card-title">${element.title}</a>
             <p class="card-text">${element.price} $</p>

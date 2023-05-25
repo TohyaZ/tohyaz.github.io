@@ -10,7 +10,7 @@ dataB1.forEach((element) => {
     let arrayCard = `
     <div class="col-md-3">
         <div class="card">
-            <img src=${element.srcImg}>
+            <img alt="..." src=${element.srcImg}>
                 <div class="card-body">
                     <h5 class="card-title">${element.title}</h5>
                     <p class="card-text">${element.price} $</p>
@@ -26,7 +26,7 @@ dataB2.forEach((element) => {
     let arrayCard = `
     <div class="col-md-3">
         <div class="card">
-            <img src=${element.srcImg}>
+            <img alt="..." src=${element.srcImg}>
                 <div class="card-body">
                     <h5 class="card-title">${element.title}</h5>
                     <p class="card-text">${element.price} $</p>
