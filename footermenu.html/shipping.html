@@ -10,59 +10,67 @@
 <body>
     <div class="PageContainer">
     <!--Header-->
-    <div class="section-header">
-        <div class="Header_Wrapper d-flex justify-content-between align-items-center">
-          <div class="header_flex-item navbar navbar-expand-md">
-            <!--MainNav-->
-            <nav class="headerMainnav">
-            <ul class="d-flex text-light m-3 list-unstyled ">
-              <li class="flex-item p-3"><a href="../index.html" class="text-decoration-none text-light"><span>home</span></a>
-              <li class="nav-item dropdown">
-                <a class="flex-item p-3 nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><span>products</span></a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item text-light" href="../keyboards.html">keyboard</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item text-light" href="../switchs.html">swtich</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item text-light" href="../keyboards.html">keyboard kit</a></li>
+    <header>
+      <nav class="navbar navbar-expand-lg p-4">
+          <div class="container-fluid">
+            <a class="navbar-brand fs-4" href="#">Keygem Store</a>
+            <button class="navbar-toggler shadow-none border-0 navbar-button" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 gap-2">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Products
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="../keyboards.html">Keyboard</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="../switchs.html">Switch</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="../deskmats.html">Deskmat</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Info
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="privacy.html">Privacy Policy</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="rerfund.html">Refund Policy</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="shipping.html">Shipping Policy</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="../contatch.html">Contact Us</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Search</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Cart</a>
+                  </li>
                 </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="flex-item p-3 nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><span>info</span></a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item text-light" href="shipping.html">shipping policy</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item text-light" href="rerfund.html">refund policy</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item text-light" href="../contatch.html">contact us</a></li>
-                </ul>
-              </li>
-              </ul>
-            </nav>
-            <!--DROPDOWN_CONTENT_END-HERE-->
+              </div>
+            </div>
           </div>
-          <!--LOGO-->
-          <div class="header_flex-logo text-light d-flex">
-            <h1 style="color:#d4af37">keystore</h1>
-          </div>
-          <!--CART-->
-          <div class="header_flex-item">
-            <nav class="header_SecondNav">
-              <ul class="d-flex text-light m-3 list-unstyled">
-                <li class="flex-item p-3">Account</li>
-                <li class="flex-item p-3">Search</li>
-                <li class="flex-item p-3">Cart</li>
-              </ul>
-            </nav>
-          </div>
-        </div> <!--Header_END-->
-      </div> <!--Page_Container_END-->
+        </nav>
+  </header>
     <!--Main-->
     <div class="main policyMain d-flex align-items-center justify-content-center flex-column">
       <div class="policyTitle text-center">
           <h5>Shipping Policy</h5>
       </div>
-      <div class="policyContent w-25">
+      <div class="policyContent w-50">
         <p>We try to provide shipping for as many countries as possible. Please check the table for more information regarding pricing and processing times.  </p>
         <p>All orders which are placed before midnight will be shipped the next business day!</p>
         <p>Depending on the weight of the package it will be handed over to DHL or German Post here in Germany. Both of these shipping companies might hand over the package to your local shipping companies.</p>
@@ -71,10 +79,12 @@
         <p>Depending on the available transport capacities, we reserve the right to ship packages and parcels by sea to the USA until further notice. The franking of such shipments is only possible online and we expressly point out that under certain circumstances very long transit times of up to 60 days must be expected. For destinations in the western United States or in remote regions, the transit time may also be longer.</p>
         <br>
         <p><strong>IMPORTANT!</strong> Shipping to Bulgaria and Israel is currently very slow and it comes to delivery times over 1-2 months. </p>
+        <br>
+        <p><strong>KEYSTORE:</strong> One Again Thanks For Reading Our Policy Before Buying</p>
         <div class="d-flex justify-content-between align-items-baseline">
           <div>
-            <p style="line-height: 1;">Region</p>
-            <div class="shippingBox">
+            <p style="line-height: 1.2;">Region</p>
+            <div class="shippingBox" >
             <p>Germany</p>
             <p>EU</p>
             <p>Asia</p>
@@ -82,7 +92,7 @@
             </div>
           </div>
           <div>
-            <p style="line-height: 1;">Pricing starting at</p>
+            <p style="line-height: 1.2;">Pricing starting at</p>
             <div class="shippingBox">
             <p>5.00 $</p>
             <p>7.00 $</p>
@@ -91,7 +101,7 @@
             </div>
           </div>
           <div>
-            <p style="line-height: 1;">Processing time until Shipping</p>
+            <p style="line-height: 1.2;">Processing time until Shipping</p>
             <div class="shippingBox">
             <p>1 day</p>
             <p>1 day</p>
