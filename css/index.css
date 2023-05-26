@@ -250,7 +250,7 @@ background-color:#3b3b3b !important;
 
 .sectionProduc-list .card{
     --bs-card-border-color:none;
-        cursor:pointer;
+    cursor:pointer;
 }
 
 /* DeskMats CSS */

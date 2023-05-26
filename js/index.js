@@ -8,7 +8,7 @@ const getContainerCard2 = document.getElementById("indexCcard2")
 let containerCard = ""
 dataB1.forEach((element) => {
     let arrayCard = `
-    <div class="col-md-3">
+    <div class="col-lg-3 col-md-6">
         <div class="card">
             <img alt="..." src=${element.srcImg}>
                 <div class="card-body">
@@ -24,7 +24,7 @@ dataB1.forEach((element) => {
 let containerCard2 = ""
 dataB2.forEach((element) => {
     let arrayCard = `
-    <div class="col-md-3">
+    <div class="col-lg-3 col-md-6">
         <div class="card">
             <img alt="..." src=${element.srcImg}>
                 <div class="card-body">
@@ -42,7 +42,7 @@ data2.forEach((element) => {
     let html = `
     <div class="col-lg-4 col-md-6 col-sm-12">
         <div class="card shadow-sm mb-5 mt-5">
-            <img alt="..." src=${element.srcImg}>
+            <img alt="..." src=${element.srcImg}> 
         </div>
     </div>
     `   
