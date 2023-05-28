@@ -3,14 +3,14 @@ const getDeskmatscard = document.getElementById("swtichsCard")
 console.log('a',getDeskmatscard)
 
 let SwitchCard = ""
-data.forEach((product)=>{
+data.forEach((element)=>{
 let html = `
 <div class="col-md-3 p-3">
 <div class="card">
-    <img alt="..." src=${product.srcImg}>
+    <img alt="..." src=${element.srcImg}>
         <div class="card-body">
-            <a class="card-title">${product.title}</a>
-            <p class="card-text">${product.price} $</p>
+            <a class="card-title">${element.title}</a>
+            <p class="card-text">${element.price} $</p>
             <a class="btn btn-primary add-to-cart" data-id=${element.id} >ADD TO CART</a>
         </div>
 </div>
