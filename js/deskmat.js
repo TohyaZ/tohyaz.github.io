@@ -13,7 +13,6 @@ let html = `
             <a class="card-title">${element.title}</a>
             <p class="card-text">${element.price} $</p>
             <a class="btn btn-primary add-to-cart" data-id=${element.id} >ADD TO CART</a>
-
         </div>
 </div>
 </div>

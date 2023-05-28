@@ -4,9 +4,9 @@ const products = getItemInLocal('products')
 console.log('products',products)
 
 let containerOderlist = document.getElementById("oder-list")
-let arrayCart = ""
 let priceTotal = 0
 let shipTotal = 5
+let arrayCart = ""
 products.forEach(element => {
     let html = `
     <hr class="my-4">

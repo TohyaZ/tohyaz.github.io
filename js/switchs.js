@@ -11,6 +11,7 @@ let html = `
         <div class="card-body">
             <a class="card-title">${product.title}</a>
             <p class="card-text">${product.price} $</p>
+            <a class="btn btn-primary add-to-cart" data-id=${element.id} >ADD TO CART</a>
         </div>
 </div>
 </div>
@@ -41,10 +42,10 @@ function add(event) {
   setItemInLocal('products', item[0])
 }
 
-let checkoutbtn = document.getElementById("checkout")
-console.log('checkout',checkoutbtn)
-checkoutbtn.addEventListener("click",redirect)
+// let checkoutbtn = document.getElementById("checkout")
+// console.log('checkout',checkoutbtn)
+// checkoutbtn.addEventListener("click",redirect)
 
-function redirect() {
-  let products = getItemInLocal("products")
-}
+// function redirect() {
+//   let products = getItemInLocal("products")
+// }
