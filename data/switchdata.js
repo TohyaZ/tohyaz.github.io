@@ -2,14 +2,14 @@ const data = [
     {
         id:1,
         srcImg:"images/Join65side.2_700x.webp",
-        title:"Product 1",
-        price:100
+        title:"Swtich 1",
+        price:20
     },
      {
         id:2,
         srcImg:"images/TPS40Render_13_1903x_394c683f-f3a4-4dde-a3a5-626f96bc80cd_700x.webp",
-        title:"Product 2",
-        price:100
+        title:"Switch 2",
+        price:10
     },
      {
         id:3,
