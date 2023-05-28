@@ -16,7 +16,7 @@ body {
 }
 
 .load-text {
-  left: 50%;
+  left:54%;
   top: 50%;
   transform: translate(-50%, -50%);
   position: absolute;
@@ -34,7 +34,7 @@ body {
 .loading-text {
   width: 0;
   overflow: hidden;
-  animation: expand 1s linear 1.5s forwards;
+  animation: expand .75s linear 1.5s forwards;
   white-space: nowrap;
 }
 
@@ -54,7 +54,7 @@ main {
 
 @keyframes expand {
   from {width: 0;}
-  to {width: 50vmax;}
+  to {width: 40vmax;}
 }
 
 @keyframes backgroundChange {
