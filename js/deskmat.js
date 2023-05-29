@@ -4,15 +4,17 @@ const getDeskmatscard = document.getElementById("deskMatscard")
 console.log('deskmats',getDeskmatscard)
 
 let deskMcard = ""
+
+
 data.forEach((element)=>{
 let html = `
 <div class="col-md-3 p-3";>
-<div class="card">
+<div class="card bg-transparent">
     <img alt="..." src=${element.srcImg} id="mainImg">
         <div class="card-body">
-            <a class="card-title">${element.title}</a>
+            <a class="card-title">${element.name}</a>
             <p class="card-text">${element.price} $</p>
-            <a class="btn btn-primary add-to-cart" data-id=${element.id} >ADD TO CART</a>
+            <a class="btn btn-primary add-to-cart bg-transparent"  style="border-color:black;font-weight:600;font-size:17px;" data-id=${element.id} >ADD TO CART</a>
         </div>
 </div>
 </div>

@@ -19,7 +19,7 @@ products.forEach(element => {
       </div>
       <div class="col-md-3 col-lg-3 col-xl-3">
         <h6 class="text-muted">${element.title}</h6>
-        <h6 class="text-black mb-0">Cotton T-shirt</h6>
+        <h6 class="text-black mb-0">${element.name}</h6>
       </div>
       <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
         <button class="btn btn-link px-2"

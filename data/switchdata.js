@@ -1,81 +1,80 @@
 const data = [
     {
         id:1,
-        srcImg:"images/Join65side.2_700x.webp",
+        srcImg:"images/switch/ako1.webp",
         title:"Swtich 1",
-        price:20
+        name:"AKKO CS SAKURA SWITCH",
+        price:14
     },
      {
         id:2,
-        srcImg:"images/TPS40Render_13_1903x_394c683f-f3a4-4dde-a3a5-626f96bc80cd_700x.webp",
+        srcImg:"images/switch/ako2.webp",
         title:"Switch 2",
-        price:10
+        name:"AKKO CS ROSE RED SWITCH",
+        price:14
     },
      {
         id:3,
-        srcImg:"images/20221231_700x.webp",
-        title:"Product 3",
-        price:100
+        srcImg:"images/switch/ako3.webp",
+        title:"Swtich 3",
+        name:"AKKO CS SILVER SWITCH",
+        price:14
     },
     {
         id:4,
-        srcImg:"images/20221231_700x.webp",
-        title:"Product 3",
-        price:100
+        srcImg:"images/switch/ako4.webp",
+        title:"Swtich 4",
+        name:"AKKO CS JELLY PURPLE SWITCH",
+        price:14
     },
     {
         id:5,
-        srcImg:"images/20221231_700x.webp",
-        title:"Product 3",
-        price:100
+        srcImg:"images/switch/ako3.webp",
+        title:"Swtich 5",
+        name:"AKKO CS SILVER SWITCH",
+        price:14
     },
     {
         id:6,
-        srcImg:"images/20221231_700x.webp",
-        title:"Product 3",
-        price:100
+        srcImg:"images/switch/ako6.webp",
+        title:"Swtich 6",
+        name:"AKKO CS JELLY BLACK SWITCH",
+        price:14
     },
     {
         id:7,
-        srcImg:"images/20221231_700x.webp",
-        title:"Product 3",
-        price:100
+        srcImg:"images/switch/ako7.webp",
+        title:"Swtich 7",
+        name:"AKKO CS JELLY WHITE SWITCH",
+        price:14
     },
     {
         id:8,
-        srcImg:"images/20221231_700x.webp",
-        title:"Product 3",
-        price:100
+        srcImg:"images/switch/ako8.webp",
+        title:"Swtich 8",
+        name:"AKKO CS LAVENDER PURPLE SWITCH",
+        price:14
     },
     {
         id:9,
-        srcImg:"images/20221231_700x.webp",
-        title:"Product 3",
-        price:100
+        srcImg:"images/switch/ako9.webp",
+        title:"Swtich 9",
+        name:"AKKO CS RADIANT RED SWITCH",
+        price:14
     },
     {
         id:10,
-        srcImg:"images/20221231_700x.webp",
-        title:"Product 3",
-        price:100
+        srcImg:"images/switch/ako10.webp",
+        title:"Swtich 10",
+        name:"AKKO CS OCEAN BLUE SWITCH",
+        price:14
     },
     {
         id:11,
-        srcImg:"images/20221231_700x.webp",
-        title:"Product 3",
-        price:100
-    },
-    {
-        id:12,
-        srcImg:"images/20221231_700x.webp",
-        title:"Product 3",
-        price:100
-    },
-    {
-        id:13,
-        srcImg:"images/20221231_700x.webp",
-        title:"Product 3",
-        price:100
+        srcImg:"images/switch/ako11.webp",
+        title:"Swtich 11",
+        name:"AKKO CS MATCHA SWITCH",
+        price:14
     },
 ]
 
