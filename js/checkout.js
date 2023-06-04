@@ -32,7 +32,7 @@ listID.forEach(id => {
       <button data-id=${products[0].id} class="addOne px-2">+</button>
     </div>
     <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
-      <h6 class="mb-0">$ ${products[0].price}.00</h6>
+      <h6 class="mb-0">$ ${products[0].price * products.length}.00</h6>
     </div>
     <div class="col-md-1 col-lg-1 col-xl-1 text-end">
       <a href="#!" class="text-muted"><i class="fas fa-times"></i></a>
@@ -40,12 +40,12 @@ listID.forEach(id => {
   </div>
     `
   arrayItem += html
-  priceTotal += products[0].price
+  priceTotal += products[0].price * products.length
 });
+
+
 containerOderlist.innerHTML = arrayItem;
-
-containerPricetotal.innerHTML = priceTotal + ".00$";
-
+containerPricetotal.innerHTML = priceTotal.toFixed(2)+"$";
 
 let btnsAddOne = document.querySelectorAll(".addOne")
 let btnsRemoveOne = document.querySelectorAll(".removeOne")
@@ -67,6 +67,7 @@ function addOne(event) {
   setItemsInLocal("products", orderItemData)
   let total = document.getElementById(`count-${id}`)
   total.innerHTML = items.length + 1
+  location.reload();
 }
 
 function reoveOne(event) {
@@ -76,5 +77,5 @@ function reoveOne(event) {
   setItemsInLocal("products", orderItemData)
   let total = document.getElementById(`count-${id}`)
   total.innerHTML = items.length - 1
+  location.reload();
 }
-

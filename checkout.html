@@ -111,7 +111,7 @@
                           <hr class="my-4">
                           <div class="d-flex justify-content-between mb-5">
                             <h5 class="text-uppercase" >Total price</h5>
-                            <h5 id="priceTotal">0$</h5>
+                            <h5 id="priceTotal"></h5>
                           </div>
                           <button id="buttonCheck" type="button" class="btn btn-dark btn-block btn-lg"
                             data-mdb-ripple-color="dark" >Register</button>
@@ -186,17 +186,12 @@
           title: "Success",
           text: "Thak you for using our service",  
           icon: "success",   
-          buttons: { 
-            cancel: "Cancel",    
-            confirm: "Okay" 
-          },
           closeOnClickOutside: false,
         });
-       
         setTimeout(function () {
           localStorage.clear();
-          window.location.href = "checkout.html";
-        }, 3000); 
+          location.reload();
+        }, 3500); 
       });</script>
   </body>
 </html>

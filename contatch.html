@@ -174,8 +174,9 @@ button.addEventListener("click", (e) => {
     });   
     history.pushState({}, '', 'contatch.html?#');
     setTimeout(function () {
-          window.location.href = "old-index.html";
-        }, 6000); 
+          localStorage.clear();
+          location.reload();
+        }, 4500); 
   }
 });  
       </script>
