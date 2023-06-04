@@ -1,12 +1,23 @@
-export function setItemInLocal(name, value) {
-  if (name == null) return;
-  const listItems = JSON.parse(localStorage.getItem(name) || "[]");
-
-  listItems.push(value);
-  localStorage.setItem(name, JSON.stringify(listItems));
+export function clearLocalStorage() {
+  localStorage.clear();
 }
 
-export function getItemInLocal (cname) {
-  const cvalue = localStorage.getItem(cname)
-  return cvalue ? JSON.parse(cvalue) : ""
+export function setItemInLocal(cname, cvalue) {
+  if (cname == null) return;
+  const listItems = JSON.parse(
+    localStorage.getItem(cname) || "[]"
+  );
+  listItems.push(cvalue);
+  localStorage.setItem(cname, JSON.stringify(listItems));
+}
+
+export function getItemInLocal(cname) {
+  const cvalue = localStorage.getItem(cname);
+  return cvalue ? JSON.parse(cvalue) : "";
+}
+
+
+export function setItemsInLocal(cname, cvalue) {
+  if (cname == null) return;
+  localStorage.setItem(cname, JSON.stringify(cvalue));
 }
