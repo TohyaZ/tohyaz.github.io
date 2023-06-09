@@ -48,14 +48,14 @@ const dataB2 = [
         id:3,
         srcImg:"images/keyboard/k4.webp",
         title:"Product 7",
-        name:"DUCKY MIYA PRO SAKURA EDITION TKL",
+        name:"DUCKY MIYA PRO SAKURA",
         price:100
     },
     {
         id:4,
         srcImg:"images/keyboard/k7.webp",
         title:"Product 8",
-        name:"GROUP-BUY ROZE65 KEYBOARD KIT",
+        name:"GROUP-BUY ROZE65",
         price:399
     },
 ]
